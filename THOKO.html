@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PORTFOLIO</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background-color:pink;
+      padding: 20px;
+    }
+
+    .profile-picture img {
+      display: block;
+      width: 150px; 
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color:black;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+    }
+
+    .portfolio-item {
+      width: calc(50% - 10px); 
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color:palevioletred;
+      padding: 1rem;
+      clear: both;
+    }
+
+   .Nails img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+   }
+
+   .Nails {
+      flex: 0 0 50%;
+   }
+
+   .Cakes img {
+      display: block;
+      width: 100px;
+      height: 100px; 
+      border-radius: 50%;
+      margin: 0 auto 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+   }
+
+   .Cakes {
+      flex: 0 0 50%; 
+   }
+
+
+    @media screen and (min-width: 600px) {
+      .profile-picture img {
+        width: 200px; 
+        height: 200px; 
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      .profile-picture img {
+        width: 250px; 
+        height: 250px; 
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="profile-picture">
+      <img src="thoko.jpg" alt="thoko">
+    </div>
+    <h1>THOKOZIRE ZIMBA</h1>
+    <p>| IS STUDENT |  BAKER | NAIL ARTIST| </p>
+  </header>
+
+  <main>
+
+    <div class="About Me">
+        <h2>ABOUT ME</h2>
+        <p>Hey there im an information systems student with a passion of blending technology and business.My interest lies in understanding how organisations use technology to optimize their daily operations  to improve decision making and achieve their goals.From Database mangement and system analysis to project managemrnt and data analylitics.I enjoy various aspects of information systems.</p>
+    </div>
+    <div class="container">
+      <div class="Nails">
+        <h2>NAILS</h2>
+        <img src="nails.jpg" alt="nails">
+        <p>I'm a talanted nail artist with a passion for tranfmorming nails into maiature works of art. i love exploring unique designs,colors and techniquest to crate beautiful nails that make clients feel beutiful.I offer nail services and skin care.For the skin care I offer a proper foot and hand massage and parrafin wax.The parrafin wax helps to soften the skin,treatment of cuticles and also provide a relief to the joints and muscles.The nail salon also offers manicure,padicure and nail art.</p>
+      </div>
+
+      <div class="Cakes">
+        <h2>CAKES</h2>
+        <img src="cake 2.jpg" alt="cake">
+        <p>Im a passionate baker with a flair for creating sweet delightful treats.I love experimenting  with textures and flavours to bring joy to peoples test buds.Baking is not a profession for me, its an art form where i por my heart and soul into evey creation.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Contact: 0888723369</p>
+    <p>  Email: Vichalithokozire@gmail.com</p>
+    <p>&copy; 2023 Thokozire Zimba. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
